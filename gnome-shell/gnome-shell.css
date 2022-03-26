@@ -10,7 +10,7 @@
   
   
 }
-/* Deixa a barra transparente nas outras telas */
+/* Deixa a barra transparente nas outras telas (overview, login) */
 #panel.unlock-screen, #panel.login-screen, #panel.lock-screen, #panel:overview {
   background: none;
   color: #f2f4f7;
