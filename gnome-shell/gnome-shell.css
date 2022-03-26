@@ -1,0 +1,86 @@
+/* TOP BAR */
+#panel {
+  /*  background-color: rgba(39, 42, 42, 0.85); */
+  /* transition from solid to transparent */
+  transition-duration: 250ms;
+  font-weight: bold;
+  height: 2em;
+  font-size: 12px;
+  /*background-color: #262626;*/
+  
+  
+}
+/* Deixa a barra transparente nas outras telas */
+#panel.unlock-screen, #panel.login-screen, #panel.lock-screen, #panel:overview {
+  background: none;
+  color: #f2f4f7;
+}
+
+/* Remove o canto arredondado entre as janelas e o panel*/
+/*
+#panel .panel-corner {
+    -panel-corner-radius: 0px;
+    -panel-corner-background-color: rgba(0, 0, 0, 0.8);
+    -panel-corner-border-width: 0px;
+    -panel-corner-border-color: transparent; 
+}*/
+/*
+#panel #panelActivities.panel-button > * {
+    color: rgba(0, 0, 0, 0);
+    width: 24px;
+    height:24px;
+    background-image: url("gnome.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 24px auto;
+}
+#panelActivities:focus,
+#panelActivities:active,
+#panelActivities:hover 
+#panelActivities.panel-button > * {
+    color: rgba(0, 0, 0, 0);
+    width: 24px;
+    height:24px;
+    background-image: url("gnome-white.svg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 24px auto;
+}
+*/
+
+/* Coloca plano de fundo na área de visualização e aplicativos*/
+/*
+#overviewGroup {
+      background-color: #000000;
+      background-image: url("img1.jpg");
+      background-repeat: no-repeat;
+}*/
+
+/* Personaliza a entrada de Pesquisa 
+.search-section .search-section-separator
+{
+    height: 1px;
+    background-color: rgba(255, 255, 255, .1);
+}
+.search-entry
+{
+    caret-color: white;
+    selection-background-color: #008bff;
+    selected-color: white;
+    padding: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.search-section .search-section-separator
+{
+    height: 1px;
+    background-color: rgba(255, 255, 255, .1);
+}
+*/
+/**********************************************/
+
